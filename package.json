@@ -1,0 +1,42 @@
+{
+	"name": "roomer",
+	"version": "0.0.1",
+	"description": "Rommer static site",
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "*",
+		"matchdep": "*",
+
+		"load-grunt-config": "*",
+
+		"grunt-newer": "*",
+		"grunt-concurrent": "*",
+		"time-grunt": "*",
+		"grunt-notify": "*",
+
+		"grunt-ect-templates": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-compass": "*",
+		"grunt-rigger": "*",
+
+		"grunt-contrib-watch": "*",
+
+		"grunt-contrib-connect": "*",
+		"grunt-open": "*",
+
+		"grunt-prettify": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-imagemin": "0.4",
+
+		"grunt-modernizr": "",
+
+		"grunt-contrib-jshint": "*",
+
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-copy": "*"
+	},
+	"engines": {
+		"node": ">=0.10.1"
+	}
+}

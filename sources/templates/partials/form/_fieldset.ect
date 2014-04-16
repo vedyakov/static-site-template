@@ -1,0 +1,19 @@
+<%
+    @classname ?= ''
+    @label_classname ?= ''
+    @label ?= ''
+    @name ?= ''
+    @type ?= 'text'
+    @required ?= false
+
+    @label_classname += ' required' if @required
+
+    @classname_additional = 'fieldset-error' if @error
+
+    @error ?= {}
+%>
+<fieldset class="form_fieldset <%= @classname %> <%= @classname_additional %>">
+    <label for="<%= @name %>" class="label-simple <%= @label_classname %>"><%= @label %></label>
+    <input class="field field-string" name="<%= @name %>" type="<%= @type %>" />
+    <% include 'partials/form/_error-bubble.ect', @error %>
+</fieldset>

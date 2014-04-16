@@ -1,0 +1,70 @@
+{
+	"passfail": false,
+	"maxerr": 100,
+
+	"browser": true,
+
+	"node": false,
+	"rhino": false,
+	"couch": false,
+	"wsh": false,
+
+	"jquery": true,
+	"prototypejs": false,
+	"mootools": false,
+	"dojo": false,
+
+	"predef": [],
+
+	"debug": false,
+	"devel": true,
+
+	"esnext": true,
+	"strict": false,
+	"globalstrict": false,
+
+	"asi": true,
+	"laxbreak": true,
+	"bitwise": true,
+	"boss": false,
+	"curly": true,
+	"eqeqeq": true,
+	"eqnull": false,
+	"evil": false,
+	"expr": true,
+	"forin": false,
+	"immed": true,
+	"latedef": true,
+	"loopfunc": false,
+	"noarg": true,
+	"regexp": true,
+	"regexdash": false,
+	"scripturl": true,
+	"shadow": false,
+	"supernew": false,
+	"undef": true,
+	"unused": true,
+
+	"newcap": true,
+	"noempty": true,
+	"nonew": true,
+	"nomen": false,
+	"onevar": false,
+	"plusplus": false,
+	"sub": false,
+	"trailing": true,
+	"white": false,
+	"quotmark": "single",
+	"camelcase": false,
+
+	"globals": {
+		"Modernizr": false,
+		"_": false,
+		"Tween": true,
+		"TweenLite": false,
+		"Timeline": true,
+		"TimelineLite": false,
+		"Back": false,
+		"MediaElementPlayer": false
+	}
+}

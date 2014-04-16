@@ -1,0 +1,19 @@
+<%
+@classname ?= ''
+@label_classname ?= ''
+@input_classname ?= ''
+@label ?= ''
+@name ?= ''
+@type ?= 'checkbox'
+@required ?= false
+
+@label_classname += ' required' if @required
+%>
+<fieldset class="form_fieldset <%= @classname %>">
+    <label class="label-simple regular-form_label-checkboxed <%= @label_classname %> ">
+        <input class="js-checkbox-custom" type="<%- @type %>" name="<%- @name %>"/>
+        <span class="label_text">
+            <%- @label %>
+        </span>
+    </label>
+</fieldset>

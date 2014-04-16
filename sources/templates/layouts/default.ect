@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="blue">
+
+	<link rel="stylesheet" href="/css/main.css"/>
+
+	<meta name="title" content="" />
+	<meta name="description" content="">
+
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:url" content="" />
+
+	<meta name="twitter:card" content="photo">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:image:src" content="">
+	<meta name="twitter:image:width" content="">
+	<meta name="twitter:image:height" content="">
+
+	<link rel="image_src" href="" />
+
+	<script src="/js/vendor/modernizr.custom.min.js"></script>
+</head>
+<body class="">
+
+	<% include 'partials/_header' %>
+
+	<div class="content">
+		<% content %>
+	</div>
+
+	<% include 'partials/_footer' %>
+
+	<!--[if gt IE 9 ]><!--><script src="/components/jquery-modern/dist/jquery.min.js"></script><!--<![endif]-->
+	<!--[if lte IE 9 ]><script src="/components/jquery-legacy/dist/jquery.min.js"></script><![endif]-->
+	<script src="/js/plugins.js?v=1"></script>
+	<script src="/js/main.js?v=1"></script>
+
+	<script>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-XXXXXXXX-X', 'site.name' ]);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>

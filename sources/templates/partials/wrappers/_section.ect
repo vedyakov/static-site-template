@@ -1,0 +1,16 @@
+<%
+@classname ?= ''
+@id ?= ''
+@title ?= ''
+%>
+
+<div id="<%- @id %>" class="section <%- @classname %> js-section">
+	<% include 'partials/_bscroll.ect', {
+		text: @title,
+		hash: @id
+	} %>
+	<div class="pg-wrap">
+		<% content %>
+	</div>
+</div>
+
