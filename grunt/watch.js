@@ -3,12 +3,8 @@ module.exports = {
 		files: ['<%= path.development %>/<%= folder.templates %>/{,**/}*.ect'],
 		tasks: ['ect:dev']
 	},
-	compass: {
-		files: ['<%= path.development %>/<%= folder.styles %>/{,**/}*.{scss,sass}'],
-		tasks: ['compass:dev']
-	},
 	less: {
-		files: ['<%= path.development %>/<%= folder.styles %>/{,**/}*.less'],
+		files: ['<%= path.development %>/<%= folder.less %>/{,**/}*.less'],
 		tasks: ['less:dev']
 	},
 	rig: {
