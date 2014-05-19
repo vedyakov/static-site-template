@@ -7,6 +7,10 @@ module.exports = {
 		files: ['<%= path.development %>/<%= folder.less %>/{,**/}*.less'],
 		tasks: ['less:dev']
 	},
+	compass: {
+		files: ['<%= path.development %>/<%= folder.sass %>/{,**/}*.less'],
+		tasks: ['sass:dev']
+	},
 	rig: {
 		files: [ '<%= path.development %>/<%= folder.scripts %>/{,**/}*.js' ],
 		tasks: [ 'rig:dev' ]
