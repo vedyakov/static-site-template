@@ -1,7 +1,7 @@
 module.exports = {
 	dev: {
 		options: {
-			port: 9000,
+			port: 8081,
 			hostname: '*',
 			base: [
 				'<%= path.temp %>',
